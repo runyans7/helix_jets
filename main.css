@@ -1,0 +1,244 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#container {
+  width: 1138px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255,255,255,.5);
+  position: relative;
+  top: 0px;
+  z-index: 10;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#main_logo {
+  height: 80px;
+}
+
+#navbar {
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 45px;
+}
+
+#navbar li {
+  display: inline;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #616161;
+  padding: 0px 10px;
+}
+
+#navbar a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+#media_icons {
+  position: absolute;
+  right: 40px;
+  top: 39px;
+}
+
+#media_icons li {
+  display: inline;
+}
+
+#media_icons a {
+  padding: 0px 10px;
+}
+
+section#main_body {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+#quote_block {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  top: 425px;
+  right: 100px;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 25px;
+  color: #fff;
+  font-size: 24px;
+}
+
+#quote_block:hover {
+  background-color: rgba(0,0,0,.7);
+}
+
+#quote_block span {
+  display: block;
+  padding: 10px;
+}
+
+#quote_block input {
+  width: 245px;
+  margin: 10px 0px;
+  height: 25px;
+  background-color: rgba(216,216,216,.6);
+  border: none;
+  border-radius: 5px;
+  color: #fff; 
+}
+
+#quote_block input:hover {
+  background-color: rgba(216,216,216,.7);
+}
+
+#quote_block input[type="button"] {
+  background-color: rgba(216,216,216,.3);
+  font-size: 18px;
+  color: rgb(216,216,216);
+}
+
+#quote_block input[type="button"]:hover {
+  background-color: #06C6FB;
+}
+
+::-webkit-input-placeholder {
+   color: #666666;
+   padding-left: 5px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #666666;
+   padding-left: 5px;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666666;  
+   padding-left: 5px;
+}
+
+:-ms-input-placeholder {  
+   color: #666666;  
+   padding-left: 5px;
+}
+
+#main_body_footer {
+  width: 100%;
+  height: 80px;
+  position: absolute;
+  background-color: #06C6FB;
+  overflow: hidden;
+  margin-top: 530px;
+  line-height: 80px;
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+}
+
+#main_body_footer {
+  text-shadow: 2px 2px #636363;
+}
+
+#safety_icons {
+  width: 100%;
+  height: 120px;
+  position: absolute;
+  top: 740px;
+  text-align: center;
+}
+
+#safety_icons li {
+  display: inline;
+  padding: 0px 40px;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: #C6C3C3;
+  position: absolute;
+  top: 850px;
+  color: #616161;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #616161;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: underline;;
+}
+
+.align_left {
+  float: left;
+  margin-left: 10px;
+}
+
+.align_right {
+  float: right;
+  margin-right: 10px;
+}
